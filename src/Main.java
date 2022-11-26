@@ -64,6 +64,27 @@ public class Main {
             }
         }
         System.out.println();
+        for (int i = arr.length - 1; i >= 0; i--) {
+            System.out.print(arr[i]);
+            if (i != 0) {
+                System.out.print(",");
+            }
+        }
+        System.out.println();
+        for (int i = array.length - 1; i >= 0; i--) {
+            System.out.print(array[i]);
+            if (i != 0) {
+                System.out.print(",");
+            }
+        }
+        System.out.println();
+        for (int i = array2.length - 1; i >= 0; i--) {
+            System.out.print(array2[i]);
+            if (i != 0) {
+                System.out.print(",");
+            }
+        }
+        System.out.println();
     }
 
     }
