@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -51,12 +53,12 @@ public class Main {
                 System.out.print(",");
             }
         }
-            System.out.println();
+        System.out.println();
 
-            for (int i = 0; i < arr.length; i++) {
-                if (arr[i] % 2 == 1) {
-                    arr[i]++;
-                }
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 1) {
+                arr[i]++;
+            }
 
             System.out.print(arr[i]);
             if (i != arr.length - 1) {
@@ -86,5 +88,4 @@ public class Main {
         }
         System.out.println();
     }
-
-    }
+}
